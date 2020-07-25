@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Login Form UI Design</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800&display=swap');
+
+*{
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	align-items: center;
+	background: #eff4ff;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+    
+}
+
+.form{
+	background: #eff4ff;
+	border-radius: 20px;
+	box-shadow: 5px 5px 8px rgb(129, 154, 181 , 0.43), -6px -6px 10px rgb(255 255 255);
+	padding: 20px 15px;
+	position: relative;
+	text-align: center;
+	width: 320px;
+}
+
+
+.form .form-content{
+	margin:10px 15px;
+	text-align: left;
+}
+
+.form .form-content .form-box{
+	margin-top: 10px;
+}
+
+.form .form-content .form-box label{
+	color: #0d5ffd;
+	display: block;
+	font-size: 18px;
+    font-weight: 600;
+	margin-bottom: 5px;
+}
+
+.form .form-content .form-box input{
+	background: #eff4ff;
+    border: none;
+    border-radius: 50px;
+    box-shadow: inset -2px -2px 6px rgb(59 59 59 / 18%), inset 2px 2px 6px rgb(129 154 181 / 43%);
+    color: #0d5ffd;
+    font-size: 18px;
+    height: 45px;
+    outline: none;
+    padding: 5px 15px;
+    width: 100%;
+}
+.form .form-content .form-box input:focus
+{	
+	box-shadow:-2px -2px 6px rgb(255 255 255),
+	2px 2px 6px rgb(129 154 181 / 43%);
+    	
+}
+
+.form .form-content .form-box input[type="submit"]{
+	box-shadow:-5px -5px 10px rgb(255, 255, 255), 5px 5px 10px rgb(129 154 181 / 43%);
+	font-weight: 600;
+	margin-top: 20px;
+	background: #0d5ffd;
+	color: #eff4ff;
+}
+
+.form .form-content .form-box input[type="submit"]:active{
+	box-shadow: -5px -5px 15px rgb(255, 255, 255), 5px 5px 20px rgb(129 154 181 / 43%);
+	color:#0d5ffd;
+    background:#eff4ff;
+	margin-top: 20px;
+}
+
+.form .form-content .form-box input::placeholder{
+	color: #A2A2A2;
+	font-size: 16px;
+}
+
+.form-forget{
+	color: #0d5ffd;
+	margin-top: 30px;
+    font-weight: 600;
+}
+
+.form-forget a{
+	color: #0d5ffd;
+}
+
+.formbx
+{
+	position: relative;
+	border-radius: 20px;
+	background: #eff4ff;
+	padding:20px 30px 40px 30px;
+	/**box-shadow: -5px -5px 15px rgb(255, 255, 255), 5px 5px 20px rgb(129 154 181 / 43%);***/
+    box-shadow: 0 0 6px 6px #eff4ff, 8px 8px 10px 4px rgb(129, 154, 181 , 0.43), -8px -8px 10px 4px rgb(255 255 255);
+}
+.CA
+{
+    color: #0d5ffd;
+    display: block;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 32px;
+	font-weight: 600;
+		
+}
+
+h2
+{
+	text-align: center;
+    color: #0d5ffd;
+    font-size: 25px;
+    margin-bottom: 27px;
+    margin-top: 27px;
+}
+</style>        
+</head>
+<body>
+ 
+<div class="formbx">
+	<h2>Welcome aboard</h2>
+<div class="form">
+
+	<div class="form-content">
+		<div class="form-box">
+			<label>Full Name</label>
+			<input type="text" name="" placeholder="Jhon">
+		</div>
+		<div class="form-box">
+			<label>Email</label>
+			<input type="text" name="" placeholder="email.com">
+		</div>
+		<div class="form-box">
+			<label>Password</label>
+			<input type="password" name="" placeholder="••••••••">
+		</div>
+		<div class="form-box" style="margin-top: 30px;">
+			<input type="submit" name="submit" value="Submit">
+		</div>
+	</div>
+	<a href="01.html" class="CA">Already Have an account.?</a>
+</div>  
+
+</div>
+
+</body>
+</html>
